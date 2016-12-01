@@ -19,7 +19,7 @@ import { NinjaModuleLoader } from "./ninja-module-loader";
         routing
     ],
     providers: [
-        { provide: NgModuleFactoryLoader, useClass: NinjaModuleLoader }
+        // { provide: NgModuleFactoryLoader, useClass: NinjaModuleLoader }
     ]
 })
 export class AppModule { }
